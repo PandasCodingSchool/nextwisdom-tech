@@ -13,11 +13,11 @@ export default function About() {
   return (
     <div className="pt-16">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-blue-50 via-white to-cyan-50">
+      <section className="relative py-20 bg-[#FAF9F7]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className={`text-center transform transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-              About <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#0ea5e9] to-[#1e3a8a]">Nextwisdom Tech</span>
+            <h1 className="text-5xl md:text-6xl font-bold text-[#0C1C47] mb-6">
+              About <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00BFFF] to-[#0C1C47]">Nextwisdom Tech</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               We are passionate technologists dedicated to creating innovative solutions that transform businesses and drive digital evolution.

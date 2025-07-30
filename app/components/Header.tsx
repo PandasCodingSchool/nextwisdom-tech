@@ -27,8 +27,8 @@ const Header = () => {
               />
             </div>
             <div className="hidden sm:block">
-              <h1 className="text-xl font-bold text-[#1e3a8a]">
-                Nextwisdom <span className="text-[#0ea5e9]">Tech</span>
+              <h1 className="text-xl font-bold text-[#0C1C47]">
+                Nextwisdom <span className="text-[#00BFFF]">Tech</span>
               </h1>
               <p className="text-xs text-gray-600 -mt-1">Smart Solutions, Smarter Tomorrow</p>
             </div>
@@ -38,31 +38,31 @@ const Header = () => {
           <nav className="hidden md:flex space-x-8">
             <Link 
               href="/" 
-              className="text-gray-700 hover:text-[#0ea5e9] font-medium transition-colors duration-200 relative group"
+              className="text-gray-700 hover:text-[#00BFFF] font-medium transition-colors duration-200 relative group"
             >
               Home
-              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#0ea5e9] transition-all duration-200 group-hover:w-full"></span>
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#00BFFF] transition-all duration-200 group-hover:w-full"></span>
             </Link>
             <Link 
               href="/about" 
-              className="text-gray-700 hover:text-[#0ea5e9] font-medium transition-colors duration-200 relative group"
+              className="text-gray-700 hover:text-[#00BFFF] font-medium transition-colors duration-200 relative group"
             >
               About Us
-              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#0ea5e9] transition-all duration-200 group-hover:w-full"></span>
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#00BFFF] transition-all duration-200 group-hover:w-full"></span>
             </Link>
             <Link 
               href="/services" 
-              className="text-gray-700 hover:text-[#0ea5e9] font-medium transition-colors duration-200 relative group"
+              className="text-gray-700 hover:text-[#00BFFF] font-medium transition-colors duration-200 relative group"
             >
               Services
-              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#0ea5e9] transition-all duration-200 group-hover:w-full"></span>
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#00BFFF] transition-all duration-200 group-hover:w-full"></span>
             </Link>
             <Link 
               href="/contact" 
-              className="text-gray-700 hover:text-[#0ea5e9] font-medium transition-colors duration-200 relative group"
+              className="text-gray-700 hover:text-[#00BFFF] font-medium transition-colors duration-200 relative group"
             >
               Contact Us
-              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#0ea5e9] transition-all duration-200 group-hover:w-full"></span>
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#00BFFF] transition-all duration-200 group-hover:w-full"></span>
             </Link>
           </nav>
 
@@ -70,7 +70,7 @@ const Header = () => {
           <div className="hidden md:block">
             <Link
               href="/contact"
-              className="bg-gradient-to-r from-[#0ea5e9] to-[#1e3a8a] text-white px-6 py-2 rounded-full font-medium hover:shadow-lg transform hover:scale-105 transition-all duration-200"
+              className="bg-gradient-to-r from-[#00BFFF] to-[#0C1C47] text-white px-6 py-2 rounded-full font-medium hover:shadow-lg transform hover:scale-105 transition-all duration-200"
             >
               Get Started
             </Link>
@@ -110,28 +110,28 @@ const Header = () => {
           <nav className="py-4 space-y-2">
             <Link
               href="/"
-              className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-[#0ea5e9] rounded-lg transition-colors"
+              className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-[#00BFFF] rounded-lg transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               Home
             </Link>
             <Link
               href="/about"
-              className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-[#0ea5e9] rounded-lg transition-colors"
+              className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-[#00BFFF] rounded-lg transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               About Us
             </Link>
             <Link
               href="/services"
-              className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-[#0ea5e9] rounded-lg transition-colors"
+              className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-[#00BFFF] rounded-lg transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               Services
             </Link>
             <Link
               href="/contact"
-              className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-[#0ea5e9] rounded-lg transition-colors"
+              className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-[#00BFFF] rounded-lg transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               Contact Us
@@ -139,7 +139,7 @@ const Header = () => {
             <div className="px-4 py-2">
               <Link
                 href="/contact"
-                className="block w-full text-center bg-gradient-to-r from-[#0ea5e9] to-[#1e3a8a] text-white px-6 py-2 rounded-full font-medium"
+                className="block w-full text-center bg-gradient-to-r from-[#00BFFF] to-[#0C1C47] text-white px-6 py-2 rounded-full font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Get Started
