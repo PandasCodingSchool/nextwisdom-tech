@@ -19,11 +19,11 @@ const Header = () => {
           <Link href="/" className="flex items-center space-x-2 group">
             <div className="relative w-10 h-10 transition-transform group-hover:scale-105">
               <Image
-                src="/nextwisdom-logo.png"
+                src="/logo.png"
                 alt="Nextwisdom Tech"
                 width={40}
                 height={40}
-                className="object-contain"
+                className="object-contain h-10"
               />
             </div>
             <div className="hidden sm:block">
@@ -70,7 +70,7 @@ const Header = () => {
           <div className="hidden md:block">
             <Link
               href="/contact"
-              className="bg-gradient-to-r from-[#00BFFF] to-[#0C1C47] text-white px-6 py-2 rounded-full font-medium hover:shadow-lg transform hover:scale-105 transition-all duration-200"
+              className="bg-[#00BFFF] text-white px-6 py-2 rounded-full font-medium hover:shadow-lg transform hover:scale-105 transition-all duration-200"
             >
               Get Started
             </Link>

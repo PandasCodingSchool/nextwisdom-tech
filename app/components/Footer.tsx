@@ -11,10 +11,10 @@ const Footer = () => {
             <div className="flex items-center space-x-3 mb-4">
               <div className="relative w-12 h-12">
                 <Image
-                  src="/nextwisdom-logo.png"
+                  src="/non-t-logo.png"
                   alt="Nextwisdom Tech"
-                  width={48}
-                  height={48}
+                  width={40}
+                  height={40}
                   className="object-contain"
                 />
               </div>
