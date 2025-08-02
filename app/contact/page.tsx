@@ -139,8 +139,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900">Our Office</h3>
-                    <p className="text-gray-600">123 Tech Street, Digital City</p>
-                    <p className="text-gray-600">Innovation District, TC 12345</p>
+                    <p className="text-gray-600">UDB Rakshak, Shivam Nagar, Near SKIT College</p>
+                    <p className="text-gray-600">Jagatpura, Jaipur, Rajasthan, 302017</p>
                   </div>
                 </div>
 
@@ -152,8 +152,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900">Phone</h3>
-                    <p className="text-gray-600">+1 (555) 123-4567</p>
-                    <p className="text-gray-600">Mon - Fri: 9:00 AM - 6:00 PM</p>
+                    <p className="text-gray-600">+91-6266509696</p>
+                    <p className="text-gray-600">Mon - Fri: 9:30 AM - 6:30 PM</p>
                   </div>
                 </div>
 
@@ -264,10 +264,10 @@ export default function Contact() {
             Ready to take your business to the next level? Contact us today for a free consultation.
           </p>
           <a
-            href="tel:+15551234567"
+            href="tel:+91-6266509696"
             className="bg-[#0ea5e9] text-white px-8 py-4 rounded-full font-semibold hover:bg-[#0284c7] transform hover:scale-105 transition-all duration-300 inline-block"
           >
-            Call Now: +1 (555) 123-4567
+            Call Now: +91-6266509696
           </a>
         </div>
       </section>
