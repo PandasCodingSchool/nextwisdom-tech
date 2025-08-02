@@ -264,7 +264,7 @@ export default function Contact() {
             Ready to take your business to the next level? Contact us today for a free consultation.
           </p>
           <a
-            href="tel:+15551234567"
+            href="tel:+91-6266509696"
             className="bg-[#0ea5e9] text-white px-8 py-4 rounded-full font-semibold hover:bg-[#0284c7] transform hover:scale-105 transition-all duration-300 inline-block"
           >
             Call Now: +91-6266509696
